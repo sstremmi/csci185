@@ -5,11 +5,10 @@ body {
     background-color: #f2f2f2;
 }
 header{
-    background-color: #5f6066;
+    background-color: #fff;
     padding: 25px;
     margin-bottom: 10px;
     border-radius: 10px;
-    color: #fff;
 }
 header h1{
     font-weight: bold;
@@ -19,6 +18,10 @@ section{
     background-color: #fff;
     margin: 10px;
     border-radius: 10px;
+    transition: .2s;
+}
+section:hover{
+    transform: scale(110%);
 }
 section img{
     border-top-left-radius: 10px;
@@ -28,7 +31,4 @@ section p{
     margin: 10px;
     text-align: center;
     font-weight: bold;
-}
-#important{
-    background-color: red;
 }

@@ -1,0 +1,13 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
