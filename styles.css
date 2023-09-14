@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #e8e5df;
+    background-image: url(background.png);
+    background-size: cover;
 }
 nav{
     height: 80px;
