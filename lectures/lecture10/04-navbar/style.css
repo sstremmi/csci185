@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    padding: 0 10px;
+}
+h1{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.ham{
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .ham{
+        display: inline;
+    }
+}
