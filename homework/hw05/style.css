@@ -82,31 +82,125 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 
-/* Your Code Here */
-
-
-
-
-
+aside{
+    display: flex;
+    flex-direction: column;
+}
+aside h1{
+    padding: 2vh 1.5vw;
+    letter-spacing: 1px;
+}
+aside a{
+    padding: 1vh 2vw;
+    color: #d3d3d3;
+}
+aside a i{
+    margin-right: 1vw;
+    color: #d3d3d3;
+}
 
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
 
-/* Your Code Here */
-
-
-
-
-
+nav a{
+    text-transform: uppercase;
+    padding: 2vw;
+    color: #d3d3d3;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: #fff;
+    text-decoration: underline #1DB954 2px;
+    text-underline-offset: 5px;
+}
+nav{
+    height: 8vh;
+}
+nav .selected{
+    color: #fff;
+    text-decoration: underline #1DB954 2px;
+    text-underline-offset: 5px;
+}
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 2vw;
+}
+header a{
+    padding: 5px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .5s;
+}
+header a:hover{
+    background: #333;
+}
+header #upgrade{
+    border: 1px solid #d3d3d3;
+    color: #d3d3d3;
+}
+header #profile{
+    background: #222;
+    border: 1px solid #222;
+    color: #d3d3d3;
+}
+header #profile:hover{
+    background: #333;
+}
 
 /*************************/
 /* Part C: Artists Panel */
 /*************************/
 
-/* Your Code Here */
-
-
+#featured-content{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.artist-card img{
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.artist-card{
+    width: 15vw;
+    background: #222;
+    border-radius: 15px;
+    padding: 5vh 0;
+    margin-bottom: 5vh;
+}
+.artist-card:hover .play-button{
+    opacity: 1;
+}
+.card-footer{
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-footer h2{
+    font-size: 18px;
+}
+.card-footer p{
+    color: #d3d3d3;
+}
+.play-button{
+    opacity: 0;
+    background: #1DB954;
+    border-radius: 50%;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
 
 
 
